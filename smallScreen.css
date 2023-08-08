@@ -1,0 +1,290 @@
+/* For screen between 400px to 767px */
+@media screen and (max-width: 767px) {
+    .hero{
+        background: none;
+    }
+    .text-view{
+        border: none;
+        display: flex;  
+        justify-content: center;
+    }
+    .hero-text{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        top: 0em;
+        left: 1em;
+    }
+    .hero-text p{
+        text-align: center;
+        font-size: 32px;
+        line-height: 28px;
+        letter-spacing: .5px;
+        width: 55%;
+        z-index: 2;
+        position: absolute;
+        padding-top:  0px;
+    }
+    .border{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        top: 18.5em;
+        width: 20%;
+    }
+    .description{
+        text-align: center;
+        top: 17em;
+    }
+    .btn-discover{
+        position: relative;
+        z-index: 1;
+        padding: 16px 16px;
+        font-size: 14px;
+        font-weight: 300;
+        margin-left: 0px;
+        margin-right: auto;
+        position: absolute;
+        margin-top: 90px;
+        top: 24em;
+    }
+    .video-view{
+        overflow-x: hidden;
+    }
+    .video-view video{
+        width: 100vw;
+        min-height: 100vh ;
+        margin-left: 0px;
+        margin-top: 0px;
+        overflow-x: hidden;
+        object-fit: cover;
+        box-shadow: 1px 8px #d5ac5b;
+    }
+    .text-view-right{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        right: 0;
+        overflow: hidden;
+    }
+    .second-hero{
+        margin: 0px;
+        left: 0em;
+        text-align: center;
+        width: 100%;
+    }
+    .hero-text .subtitle{
+        display: none;
+    }
+    .second-hero p{
+        margin-top: 3em;
+        line-height: 32px;
+        width: 100%;
+        color: #d5ac5b;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+    }
+    .second-hero button{
+        margin-left: 0em;
+        margin-top: 14em;
+        padding: 16px 16px;
+        letter-spacing: normal;
+    }
+    .hero-page{
+        overflow-x: hidden;
+    }
+    .whole-row{
+        overflow-x: hidden;
+        margin: auto;
+    }
+    .product-section-row{
+        margin: 0 2;
+        justify-content: center ;
+        overflow-x: hidden;
+    }
+    .title{
+        font-size: 14px;
+        line-height: normal;
+        text-align: center;
+        letter-spacing: 4px;
+        overflow-x: hidden;
+    }
+    .title span{
+        font-size: 32px;
+        line-height: 33.92px;
+        text-align: center;
+        letter-spacing: 0.9px;
+    }
+    .col, .col1{
+        justify-content: center;
+        margin: auto;
+        padding: 0px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        text-align: center;
+    }
+    .col img, .col1 img{
+        width: 19.5em;
+        height: 17.5em;
+        margin: auto;
+        justify-content: center;
+    }
+    .col1 h1{
+        width: 100%;
+        padding-top: 1em;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: -80px;
+    }
+    .mg-right img{
+        margin: auto;
+        top: 24em;
+    }
+    .mg-right h1{
+        padding-top: 14.2em;
+        margin-left: -88px;
+        width: 100%;
+        text-align: center;
+    }
+    .btn2{
+        left: 4.1em;
+        top: 16em;
+    }
+    .btn3{
+        left: 4em;    
+        top: 44em;
+    }
+    .col3 {
+        display: none;
+    }
+    .col3 .btn-discover{
+        display: none !important;
+        margin: auto;
+}
+.col3 h1, .col3 img{
+    margin: auto;
+    display: none !important;
+    margin-right: 0;
+    padding-right: 0;
+    right: 0 !important;
+    overflow-x: hidden;
+}
+
+.section-with-background{
+        max-height: 10vh;
+        overflow: hidden;
+    }
+.above-bg{
+        flex-direction: column;
+        overflow: hidden;
+        margin:auto;
+        text-align: center;
+        justify-content: center;
+        overflow: hidden;
+}
+    .col-ideas{
+        margin: auto;
+        padding: 0 !important;
+        width: 100% !important;
+        margin-left: -80px !important;
+        overflow: hidden !important;
+    }
+    .col-ideas img{
+        width: 160px !important;
+        height: auto;
+        filter: none;
+        flex-direction: column;
+        position: absolute;
+        overflow: hidden;
+        margin: auto;
+    }
+    .col-ideas2{
+        margin: auto;
+        right: 0;
+        padding-right: 0;
+        width: 40%;
+        overflow: hidden;
+    }
+    .col-ideas2 img{
+        width: 400px;
+        height: auto;
+    }
+    .dish-name{
+        width: 40%;
+        font-size: 12px;
+        line-height: normal;
+        margin: auto;
+        margin-top: 48px;
+   
+    }
+
+    .discover{
+        text-align: center;
+        padding-left: 8em;
+        letter-spacing: normal;
+        margin-top: 0em;
+    }
+    footer{
+        margin-top: -160px;
+        overflow: hidden;
+        justify-content: center;
+        max-height: 80vh;
+    }
+    .footer-container{
+        max-width: 10vw;
+        max-height: 90vh;
+        overflow: hidden;
+    }
+    .footer-row img{
+        margin: 20px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-row{
+        padding: 0px 4px;
+        padding-left: 24px;
+    }
+    .footer-col{
+        padding-right: 8px;
+        margin-right: 0px;
+        padding-right: 0px;
+        
+    }
+    .content-row h1{
+        line-height: 32px;
+        font-size: 24px;
+        margin-left: 0%;
+
+    }
+    .content-row a{
+        line-height: 28px;
+        font-size: 14px;
+        color: #aaa3a1;
+        width: 100%;
+    }
+    .ft-row{
+        margin-top: 40%;
+        margin-left: -48%;
+    }
+    .copywrite{
+        margin-top:0px;
+        height: 10vh;
+        width: 100vw;
+        bottom: 0;
+        margin-bottom: 0;
+    }
+    .text{
+        padding-top: 14vh;
+        text-align: center;
+        margin-top: -160px;
+    }
+
+} 

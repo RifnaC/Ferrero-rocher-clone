@@ -1,0 +1,235 @@
+/* For screen between 768px to 1020px */
+@media screen and (max-width: 1000px) {
+    .hero{
+        background: none;
+    }
+    .text-view{
+        border: none;
+        display: flex;  
+        justify-content: center;
+    }
+    .hero-text{
+        width: 100%;
+        margin-left: 100px;
+        top: 60px;
+    }
+    .video-view{
+        overflow-x: hidden;
+    }
+    .video-view video{
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+        overflow-x: hidden;
+        object-fit: cover;
+        box-shadow: 1px 8px #d5ac5b;
+    }
+    .experience-section{
+        overflow-x: hidden;
+        margin-top: 20%;
+        margin-right: 0px;
+        background-image: url(images/bg-pattern.png);
+    }
+    .product-section{
+        min-height: 100vh;
+    }
+    .mg-view{
+        margin: 0px;
+        padding: 0px;
+        width: 100vw;
+        display: flex;
+        overflow-x: hidden;
+    }
+    .img-view{
+        display: flex;
+        margin: 0px;
+    }
+    .img-view img{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+    }
+    .text-view-right{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-hero{
+        margin: 0px;
+        left: 14em;
+        text-align: center;
+        width: 40%;
+    }
+    .hero-text .subtitle{
+        display: none;
+    }
+    .second-hero p{
+        margin-top: 30px;
+        margin-left: 9.4em;
+        width: 100%;
+        color: #d5ac5b;
+    }
+    .second-hero button{
+        margin-left: 6.7em;
+        margin-top: 260px;
+        padding: 20px 20px;
+    }
+    .hero-page{
+        overflow-x: hidden;
+    }
+    .whole-row{
+        overflow-x: hidden;
+        margin: auto;
+        padding: 0px;
+    }
+    .title{
+        font-size: 14px;
+        line-height: normal;
+        text-align: center;
+        letter-spacing: 4px;
+        overflow-x: hidden;
+    }
+    .title span{
+        font-size: 32px;
+        line-height: 33.92px;
+        text-align: center;
+        letter-spacing: 0.9px;
+    }
+    .col{
+        margin: 20px autopx;
+        padding: 0px 0px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    .col img{
+        width: 20em;
+        height: 17.5em;
+    }
+    .col1 h1{
+        width: 100%;
+        padding-top: 1em;
+        text-align: center;
+    }
+    .mg-right img{
+        margin-left: 340px;
+    }
+    .mg-right h1{
+        padding-top: 1em;
+        margin-left: 11em;
+        width: 100%;
+        text-align: center;
+    }
+    .col3{
+        display: none;
+    }
+    .btn2{
+        left: 5em;
+        top: 17em;
+    }
+    .btn3{
+        left:28em;    
+        top: 17em;
+    }
+    .last-sc{
+        margin-top: 200px;
+    }
+    .section-with-background{
+        height: 172vh;
+    }
+    .above-bg{
+        flex-direction: row;
+    }
+    .col-ideas{
+        margin-left: 4em;
+        margin-right: 7em;
+        overflow: hidden;
+        width: 100%;
+    }
+    .col-ideas img{
+        /* min-width: 400px;
+        min-height: 320px; */
+        width: 200px;
+        height: 280px;
+        filter: none;
+        flex-direction: row;
+        overflow: hidden;
+    }
+    .dish-name{
+        width: 14em;
+        font-size: 16px;
+        line-height: normal;
+        margin-bottom: 96px;
+        box-shadow: none;
+    }
+    .row2{
+        top: 21.7em;
+        left: -41.2em;
+    }
+    .discover{
+        text-align: center;
+        padding-top: 4em;
+        padding-left: 21em;
+        letter-spacing: normal;
+    }
+    footer{
+        margin-top: -160px;
+        overflow: hidden;
+    }
+    .footer-container{
+        max-width: 10vw;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+    .footer-row img{
+        margin: 20px 0px;
+    }
+    .content-row{
+        padding: 0px 24px;
+        padding-left: 24px;
+    }
+    .footer-col{
+        padding-right: 48px;
+    }
+    .content-row h1{
+        line-height: 32px;
+        margin-left: -5%;
+
+    }
+    .content-row a{
+        line-height: 28px;
+        font-size: 14px;
+        color: #aaa3a1;
+        width: 100%;
+    }
+    .footer-col{
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .ft-row{
+        margin-top: 22%;
+        margin-left: -38%;
+        /* margin-right: 16%; */
+    }
+    .copywrite{
+        display: flex;
+        margin-top:60px;
+        min-height: 20vh;
+        width: 100vw;
+        bottom: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+ 
+        text-align: center;
+    }
+
+}
+
+    /* @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    } */ 
